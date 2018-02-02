@@ -1,0 +1,450 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/make/sim/simreader-make.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<link rel="alternate" type="application/rss+xml" title="ladyada.net blog  RSS Feed" href="http://www.ladyada.net/feed/" />
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7723544-2");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+
+<!-- InstanceBeginEditable name="overlib" -->
+<script type="text/javascript" src="../../javascript/overlib.js"><!-- overLIB (c) Erik Bosrup --></script>
+<!-- InstanceEndEditable -->
+<meta http-equiv="imagetoolbar" content="no" />
+<LINK REL=stylesheet HREF="../../css/make.css" TYPE="text/css">
+<LINK REL=stylesheet HREF="../../css/skeleton.css" TYPE="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>SIM Reader - Soldering the kit</title>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style1 {font-weight: bold}
+-->
+</style><!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+    <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+  
+<!-- InstanceBeginEditable name="badge" -->
+<div class="topheader" ><img src="../../images/simreader/topheaderbadge.gif" width="171" height="190"></div>
+<!-- InstanceEndEditable -->
+<span class="topheadertext"><!-- InstanceBeginEditable name="heading" -->SIM Reader<!-- InstanceEndEditable --></span>
+<span class="topsubheadertext"><!-- InstanceBeginEditable name="Subheading" -->Build the kit<!-- InstanceEndEditable --></span>
+
+<ul id="menu">
+	<li class="first"></li> 
+  
+    <li>
+      <div class="menuitemtext"><a href="index.html">Overview</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="faq.html">FAQ</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext">Design</div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="make.html">Make it! </a></div>
+      <ul>
+	  <li>
+	    <div class="menuitemtext"><a href="prep.html">Preparation</a></div>
+	  </li>
+	  <li>
+	    <div class="menuitemtext"><a href="parts.html">Parts list </a></div>
+	  </li>
+	  <li>
+	    <div class="menuitemtext"><a href="solder.html">Solder it!</a></div>
+	  </li>
+	  </ul>
+    </li>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="use.html">Use it!</a> </div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="resources.html">Resources</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="download.html">Download</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://www.adafruit.com/index.php?main_page=index&cPath=27">Buy Kit </a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://forums.ladyada.net/">Forums</a></div>
+    </li>
+  
+	<li class="last"></li>
+</ul>
+
+<ul id="nav">
+
+<li><a href="http://www.ladyada.net">Home</a></li>
+
+<li><a href="http://www.ladyada.net/about.html">About<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+	<li><a href="http://www.ladyada.net/about.html">ladyada.net</a></li>
+	<li><a href="http://www.ladyada.net/portfolio/2007/index.html">Portfolio</a></li>
+	<li><a href="http://www.ladyada.net/pub/research.html">Research</a></li>
+	<li><a href="http://www.ladyada.net/pub/press.html">Press</a></li>
+	<li><a href="http://www.ladyada.net/pub/pub.html">Publication &amp; Presentation</a></li>
+	<li><a href="http://www.flickr.com/photos/ladyada/">Photos</a></li>
+	<li><a href="http://www.ladyada.net/wiki">Wiki (backend)</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="http://www.ladyada.net/make/">Projects<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+	<li><a href="solder.html#nogo">Arduino &#187;<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    	<li><a href="http://www.ladyada.net/make/logshield/">Datalogger&nbsp;Shield</a></li>
+	    <li><a href="http://www.ladyada.net/make/eshield/">Ethernet&nbsp;Shield</a></li>
+	    <li><a href="http://www.ladyada.net/make/gpsshield/">GPS&nbsp;Shield</a></li>
+	  	<li><a href="http://www.ladyada.net/make/pshield/">Proto&nbsp;Shield</a></li>
+	  	<li><a href="http://www.ladyada.net/make/mshield/">Motor&nbsp;Shield</a></li>
+	  	<li><a href="http://www.ladyada.net/make/waveshield/">Wave&nbsp;Shield</a></li>
+	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	<li><a href="http://www.ladyada.net/make/bbpsup/">Adj.&nbsp;power&nbsp;supply</a></li>
+	<li><a href="http://www.ladyada.net/make/brain/">Brain&nbsp;Machine</a></li>
+	<li><a href="http://www.ladyada.net/make/boarduino/">BoArduino</a></li>
+	<li><a href="http://www.ladyada.net/make/digg/">DIGG&nbsp;Button</a></li>
+	<li><a href="http://www.ladyada.net/make/drawdio/">Drawdio</a></li>
+    <li><a href="http://www.ladyada.net/make/fuzebox/">Fuzebox</a></li>
+    <li><a href="http://www.ladyada.net/make/gamegrrl/">Game&nbsp;Grrl</a></li>
+	<li><a href="http://www.ladyada.net/make/conway/">Game&nbsp;of&nbsp;Life</a></li>
+	<li><a href="http://www.ladyada.net/make/icetube/">Ice&nbsp;Tube&nbsp;clock</a></li>
+    <li><a href="http://www.ladyada.net/make/midisense/">MIDIsense</a></li>
+	<li><a href="http://www.ladyada.net/make/minipov2/">MiniPOV2</a></li>
+	<li><a href="http://www.ladyada.net/make/minipov3/">MiniPOV3</a></li>
+	<li><a href="http://www.ladyada.net/make/minty/">MintyMP3</a></li>
+	<li><a href="http://www.ladyada.net/make/mintyboost/">MintyBoost</a></li>
+    <li><a href="http://www.ladyada.net/make/monochron/">MONOCHRON</a></li>
+    <li><a href="index.html">SIM&nbsp;Reader</a></li>
+	<li><a href="http://www.ladyada.net/make/spokepov/">SpokePOV</a></li>
+	<li><a href="http://www.ladyada.net/make/tvbgone/">TV-B-Gone</a></li>
+	<li><a href="http://www.ladyada.net/make/tweetawatt/">Tweet-a-Watt</a></li>
+    <li><a href="http://www.ladyada.net/make/usbtinyisp/">USBtinyISP</a></li>
+	<li><a href="http://www.ladyada.net/make/wavebubble/">Wave&nbsp;Bubble</a></li>
+	<li><a href="http://www.ladyada.net/make/x0xb0x/">x0xb0x</a></li>
+	<li><a href="http://www.ladyada.net/make/xbee/">XBee</a></li>
+	<li><a href="http://www.ladyada.net/make/ybox2/">YBox2</a></li>
+	<li><a href="solder.html#nogo">Quickies &#187;<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    <li><a href="http://www.ladyada.net/make/usbgamepad/index.html">USB&nbsp;Gamepad</a></li>
+	    <li><a href="http://www.ladyada.net/make/pumpkin/pumpkin.html">Halloween&nbsp;Pumpkin</a></li>
+	    <li><a href="http://www.ladyada.net/make/vintagelight/index.html">Vintage&nbsp;Bike&nbsp;Lite</a></li>
+	  	<li><a href="http://www.ladyada.net/make/sudc4kap/index.html">Kite&nbsp;Arial&nbsp;Photo</a></li>
+	  	<li><a href="http://www.ladyada.net/make/bikestand/index.html">Bike&nbsp;Stand</a></li>
+	  	<li><a href="http://www.ladyada.net/make/bikelite/index.html">LiIon&nbsp;Bike&nbsp;Lite</a></li>
+     	<li><a href="http://www.ladyada.net/make/pogojig/index.html">Pogo&nbsp;Jib</a></li>
+	  	<li><a href="http://www.ladyada.net/make/massprog/index.html">Mass&nbsp;Programming</a></li>
+	  	<li><a href="http://www.ladyada.net/make/solarlipo/index.html">Solar&nbsp;LiPo&nbsp;Charging</a></li>
+	  	<li><a href="http://www.ladyada.net/make/magstripe/index.html">Magstripe&nbsp;Reader</a></li>
+	  	<li><a href="http://www.ladyada.net/make/solarlogger/index.html">Solar&nbsp;Tracker</a></li>
+        <li><a href="http://www.ladyada.net/make/tronbag/">TRON&nbsp;Bag</a></li>
+	  </ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+   	<li><a href="http://www.ladyada.net/make/">More...</a></li>
+	<li><a href="http://www.instructables.com/member/ladyada/">->Instructables</a></li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="http://www.ladyada.net/learn/">Learn<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+	<li><a href="http://www.ladyada.net/learn/arduino/">Arduino&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/avr/">AVR&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/barcodescan/">Barcode&nbsp;scanners</a></li>
+	<li><a href="http://www.ladyada.net/learn/el-wire/">EL&nbsp;Wire&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/lcd/">LCDs</a></li>
+	<li><a href="http://www.ladyada.net/learn/arduino/LEDs.html">LEDs</a></li>
+	<li><a href="http://www.ladyada.net/learn/multimeter/">Multimeter&nbsp;tutorial</a></li>
+   	<li><a href="http://www.ladyada.net/learn/scale/">Digital&nbsp;scales</a></li>
+    <li><a href="http://www.ladyada.net/learn/sensors/">Sensors &#187;<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    	<li><a href="http://www.ladyada.net/learn/sensors/fsr.html">FSR</a></li>
+	    <li><a href="http://www.ladyada.net/learn/sensors/cds.html">CdS&nbsp;Photocell</a></li>
+	    <li><a href="http://www.ladyada.net/learn/sensors/tmp36.html">Temperature</a></li>
+	  	<li><a href="http://www.ladyada.net/learn/sensors/tilt.html">Tilt</a></li>
+	  	<li><a href="http://www.ladyada.net/learn/sensors/pir.html">PIR</a></li>
+        <li><a href="http://www.ladyada.net/learn/sensors/thermocouple.html">Thermocouple</a></li>
+        <li><a href="http://www.ladyada.net/learn/sensors/ir.html">IR&nbsp;Receiver</a></li>
+	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+    </li>
+        <li><a href="http://www.ladyada.net/learn/breakoutplus/">Breakout boards &#187;<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    	<li><a href="http://www.ladyada.net/learn/breakoutplus/ds1307rtc.html">DS1307&nbsp;RTC</a></li>
+        <li><a href="http://www.ladyada.net/learn/sensors/thermocouple.html">MAX6675</a></li>
+        <li><a href="http://www.ladyada.net/learn/products/atmega32u4breakout/">ATmega32u4&nbsp;Breakout+</a></li>
+	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+    </li>
+  
+          <li><a href="http://www.ladyada.net/products/">Products &#187;<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+     <li><a href="http://www.ladyada.net/learn/products/i2cspilcdbackpack/">i2c/SPI&nbsp;LCD&nbsp;backpack</a></li>
+     <li><a href="http://www.ladyada.net/learn/products/usbboarduino/">USB&nbsp;Boarduino</a></li>
+     <li><a href="http://www.ladyada.net/learn/products/atmega32u4breakout/">ATmega32u4&nbsp;Breakout+</a></li>
+     <li><a href="http://www.ladyada.net/learn/products/tfttouchbreakout/">2.8&nbsp;TFT&nbsp;touchscreen</a></li>
+     <li><a href="http://www.ladyada.net/learn/products/18tftbreakout/">1.8&nbsp;SPI&nbsp;TFT&nbsp;</a></li>
+     <li><a href="http://www.ladyada.net/learn/products/rfidnfc/">RFID/NFC</a></li>
+     	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+    </li>
+      
+	<li><a href="http://www.ladyada.net/learn/chumby/">Chumby&nbsp;Hacker&nbsp;Board</a></li>
+	<li><a href="http://www.ladyada.net/learn/soldering/">Soldering&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/powersupply/">Power&nbsp;Supply&nbsp;tutorial</a></li>
+    <li><a href="http://www.ladyada.net/learn/electroknit/">Brother&nbsp;KH-9033&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/diykinect/">USB&nbsp;reverse-engineering&nbsp;tutorial</a></li>
+    <li><a href="http://www.ladyada.net/learn/calipers/">Calipers&nbsp;tutorial</a></li>
+    <li><a href="http://www.ladyada.net/products/rgbledstrip/">RGB&nbsp;LED&nbsp;Strips</a></li>
+    <li><a href="http://www.ladyada.net/products/rgbledpixels/">RGB&nbsp;LED&nbsp;Pixels</a></li>
+    <li><a href="http://www.ladyada.net/learn/lipoly/">LiIon&nbsp;&amp;&nbsp;LiPoly&nbsp;Batteries</a></li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+	
+<li><a href="http://www.ladyada.net/library/">Library<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>	
+	<li><a href="http://www.ladyada.net/library/arduino/">Arduino&nbsp;Hacks</a></li>
+    <li><a href="http://www.ladyada.net/library/batteries.html">Batteries</a></li>
+	<li><a href="http://www.ladyada.net/library/diyboostcalc.html">Boost&nbsp;Calc</a></li>
+    <li><a href="http://www.ladyada.net/library/equipt/">E.E.&nbsp;Tools</a></li>
+	<li><a href="http://www.ladyada.net/library/hackcomputer.html">E.E.&nbsp;Computer</a></li>
+    <li><a href="http://www.ladyada.net/library/procure/">Find&nbsp;Parts</a></li>
+	<li><a href="http://www.ladyada.net/library/kits/">Kits</a></li>
+	<li><a href="http://www.ladyada.net/library/laser/">Laser</a></li>
+    <li><a href="http://www.ladyada.net/library/ucannoyances.html">uC Annoyances</a></li>
+	<li><a href="http://www.ladyada.net/library/openhardware/">Open Source Hardware</a></li>
+	<li><a href="http://www.ladyada.net/library/pcb/">PCB&nbsp;Design&nbsp;&amp;&nbsp;Tips</a></li>
+	<li><a href="http://www.ladyada.net/library/picvsavr.html">PIC&nbsp;vs.&nbsp;AVR</a></li>
+	<li><a href="http://www.ladyada.net/library/software/index.html">Software</a></li>
+	<li><a href="http://www.ladyada.net/library/smt/index.html">SMT</a></li>
+    <li><a href="http://www.ladyada.net/library/zencart/">Zen-Cart&nbsp;Mods</a></li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="http://www.adafruit.com/blog/">Blog</a></li>
+
+<li><a href="http://www.adafruit.com" target="_blank">Store</a></li>
+
+<li><a href="http://forums.adafruit.com/" target="_blank">Forums</a></li>
+
+</ul>
+
+<div id="searchbox">
+<!-- Google CSE Search Box Begins -->
+<form id="searchbox_012941403977924873237:omv8mprm6ek" action="http://www.google.com/cse" target="_top"> <input type="hidden" name="cx" value="012941403977924873237:omv8mprm6ek" /> <input name="q" type="text" size="23" /><br /> <span class="style1">ladyada.net</span> <input type="submit" name="sa" value="Search" /> <input type="hidden" name="cof" value="FORID:0" /> </form><script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_012941403977924873237%3Aomv8mprm6ek"></script>
+<!-- Google CSE Search Box Ends -->
+</div>
+
+<div id="lefttcol">
+<!-- this is just a buffer -->
+</div>
+
+<div id="content">
+  <!-- InstanceBeginRepeat name="texts" --><!-- InstanceBeginRepeatEntry -->
+  <div class="textblockheader"> <!-- InstanceBeginEditable name="Header" -->Lets go!<!-- InstanceEndEditable --> </div>
+  <div class="textblock"> <!-- InstanceBeginEditable name="text" -->
+    <table width="0%" class="assembly">
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/parts.jpg"><img src="../../images/simreader/parts_t.jpg" width="500" height="388" border="1"></a></td>
+        <td valign="top"><p><a href="parts.html">Check all your parts against the bill of materials</a></p>
+            <p>&nbsp;</p>          </td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/ready.jpg"><img src="../../images/simreader/ready_t.jpg" width="500" height="375" border="1"></a></td>
+        <td valign="top"><p>Get ready by placing the PCB in a vise </p>
+          <p>Heat up your soldering iron to 700deg F, clean the tip and make sure your sponge is wet </p>
+        <p>Lets go! </p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/r8place.jpg"><img src="../../images/simreader/r8place_t.jpg" width="500" height="372" border="1"></a></p>
+          <p><a href="http://www.ladyada.net/images/conway/staple.jpg"><img src="../../images/conway/staple_t.jpg" width="500" height="432" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/resplace.jpg"><img src="../../images/simreader/resplace_t.jpg" width="500" height="342" border="1"></a></p></td>
+        <td valign="top"><p>First thing we will place is <strong>R8</strong>, a 1.0K resistor (brown, black, red gold). This resistor sets the brightness of the indicator LED. </p>
+        <p>Bend the resistor into a staple as shown, and slip it in. (The second photo at left shows a 100 ohm resistor but just ignore the stripes)</p>
+        <p>Place the resistor in the location marked <strong>R8</strong>. Resistors do not have <em>polarity</em> which means you can put it in 'either way' and it will work just fine. Bend the wire legs out so that the resistor sits flat against the PCB.<br>
+        </p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/r8solder.jpg"><img src="../../images/simreader/r8solder_t.jpg" width="500" height="365" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/r8solder2.jpg"><img src="../../images/simreader/r8solder2_t.jpg" width="500" height="348" border="1"></a></p></td>
+        <td valign="top">Turn the PCB over. Using your soldering iron tip, press and heat both the pad (the silver ring around the hole) and lead (wire) at the same time for 2 or 3 seconds. Then poke the end of the wire into create a nice solder joint. Do this for both leads.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/r8clip.jpg"><img src="../../images/simreader/r8clip_t.jpg" width="500" height="376" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/r8clipped.jpg"><img src="../../images/simreader/r8clipped_t.jpg" width="500" height="356" border="1"></a></p></td>
+        <td valign="top">Using your diagonal cutters, cut off the long leads just above the solder joint.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/4001place.jpg"><img src="../../images/simreader/4001place_t.jpg" width="500" height="361" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/4001ready.jpg"><img src="../../images/simreader/4001ready_t.jpg" width="500" height="329" border="1"></a></p></td>
+        <td valign="top">Next is the <strong>1N4001</strong> protection diode <strong>D1</strong>. This protects the SIM card and voltage regulator from accidentally connecting the 9V battery backwards. Diodes, unlike resistors, are polarized: they only let current through one way. Thus it is very important that the diode is placed correctly. Bend it into a staple like the resisor but make sure that the white stripe on the end of the diode matches the white stripe in the silkscreen image.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/4001solder.jpg"><img src="../../images/simreader/4001solder_t.jpg" width="500" height="376" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/4001clip.jpg"><img src="../../images/simreader/4001clip_t.jpg" width="500" height="352" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/4001done.jpg"><img src="../../images/simreader/4001done_t.jpg" width="500" height="373" border="1"></a></p></td>
+        <td valign="top">Solder and clip the diode</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/7805place.jpg"><img src="../../images/simreader/7805place_t.jpg" width="500" height="363" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/7805place2.jpg"><img src="../../images/simreader/7805place2_t.jpg" width="500" height="341" border="1"></a></p></td>
+        <td valign="top"><p>Next is the <strong>7805</strong> (or<strong>78L05</strong>) 5V regulator <strong>IC2</strong>. This is a small chip that converts the 9V battery power to a steady 5V. This is necessary because SIM cards can be destroyed by connecting 9V power to the contacts. The 5V regulator must be placed a certain way. Make sure the flat side of the regulator matches the flat side of the silkscreen image.</p>
+        <p>Bend the middle leg back a bit and then press it down so it sits a few mm above the PCB</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/7805ready.jpg"><img src="../../images/simreader/7805ready_t.jpg" width="500" height="318" border="1"></a></p>
+          <p><a href="http://www.ladyada.net/images/simreader/7805solder.jpg"><img src="../../images/simreader/7805solder_t.jpg" width="500" height="325" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/7805clip.jpg"><img src="../../images/simreader/7805clip_t.jpg" width="500" height="351" border="1"></a></p>        </td>
+        <td valign="top"><p>To keep it from falling out, bend the leads out. </p>
+        <p>Then solder and clip all three leads</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/ledpol.jpg"><img src="../../images/simreader/ledpol_t.jpg" width="500" height="348" border="1"></a></p>        </td>
+        <td valign="top"><p>Next is the indicator LED (Light Emitting Diode) <strong>LED1</strong>. This LED is connected directly to the 5V line so that it is easy to tell if there is power to the board. LEDs are diodes too, and only work if placed correctly. </p>
+        <p>Make sure the longer lead of the LED goes into the hole marked with a <strong>+</strong></p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/ledsolder.jpg"><img src="../../images/simreader/ledsolder_t.jpg" width="500" height="328" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/leddone.jpg"><img src="../../images/simreader/leddone_t.jpg" width="500" height="345" border="1"></a></p></td>
+        <td valign="top">Solder and clip the leads of the LED</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/9vtie.jpg"><img src="../../images/simreader/9vtie_t.jpg" width="500" height="365" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/9vplace.jpg"><img src="../../images/simreader/9vplace_t.jpg" width="500" height="383" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/9vsolder.jpg"><img src="../../images/simreader/9vsolder_t.jpg" width="500" height="384" border="1"></a></p></td>
+        <td valign="top"><p>Next is the 9V battery holder. This will provide power to the circuitry. thread the two wires through the hole in the corner and tie them in a knot. This will act as a strain-relief which will keep the wires from snapping off. </p>
+        <p>Then put the red wire into + and the black wire into -</p>
+        <p>Turn the PCB over and solder in the two power wires.</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/test1.jpg"><img src="../../images/simreader/test1_t.jpg" width="500" height="375" border="1"></a></td>
+        <td valign="top">Tighten up the knot so that it is secure and connect a 9V battery. The green LED should light up, inducating that the 5V power supply is working well.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/9vsolder.jpg"></a><a href="http://www.ladyada.net/images/simreader/1kresplace.jpg"><img src="../../images/simreader/1kresplace_t.jpg" width="500" height="370" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/1kressolder.jpg"><img src="../../images/simreader/1kressolder_t.jpg" width="500" height="322" border="1"></a></p></td>
+        <td valign="top">Next lets solder in the other two 1.0K resistors, <strong>R2 </strong>and <strong>R7</strong></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/10kplace.jpg"><img src="../../images/simreader/10kplace_t.jpg" width="500" height="331" border="1"></a></td>
+        <td valign="top">Next are the four 10K resistors <strong>R3, R4, R5</strong> and <strong>R6</strong>.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/zenerplace.jpg"><img src="../../images/simreader/zenerplace_t.jpg" width="500" height="356" border="1"></a></td>
+        <td valign="top"><p>Next place and solder the 1Meg resistor (Brown Black Green) <strong>R1</strong> and the two 5.1V zener diodes <strong>D2</strong> and <strong>D3</strong>. </p>
+        <p>The resistor is used in the feedback circuit for the crystal, to keep it oscillating. </p>
+        <p>The two zener diodes are used to regulate the serial data coming from the serial port. The diodes will block the +-10V signal and keep it between ground and 5V, which is ideal for the SIM card. Like the power protection diode, these diodes must be inserted correctly to function. Make sure the black stripes on the diodes match the stripes on the silkscreen.</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/crystal.jpg"><img src="../../images/simreader/crystal_t.jpg" width="500" height="374" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/crystalsolder.jpg"><img src="../../images/simreader/crystalsolder_t.jpg" width="500" height="352" border="1"></a></p></td>
+        <td valign="top"><p>Next is the 3.57 MHz crystal<strong> X1</strong>. This crystal is necessary to generate a clock for the SIM card microprocessor. The baud rate at which it communicates is proportional to the crystal speed. For this crystal value, the baud rate is 9600 bps. </p>
+        <p>The crystal needs 2 18pF ceramic capacitors <strong>C2 </strong>and <strong>C3</strong> for stability. They are not polarized so place them in either way.</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/cappol.jpg"><img src="../../images/simreader/cappol_t.jpg" width="500" height="334" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/capplace.jpg"><img src="../../images/simreader/capplace_t.jpg" width="500" height="406" border="1"></a></p></td>
+        <td valign="top"><p>The electroytic capacitor <strong>C4</strong> provides coarse stability and smoothing to the 5V supply. Electrolytics are polarized so make sure the long lead goes into the hole marked with a +. </p>
+        <p>You can bend the capacitor over a bit so that it doesn't stick out so much.</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/mshield/bendchip.jpg"><img src="../../images/mshield/bendchip_t.jpg" width="500" height="367" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/invplace.jpg"><img src="../../images/simreader/invplace_t.jpg" width="500" height="339" border="1"></a></p></td>
+        <td valign="top"><p>Next is the <strong>74HC04</strong> hex inverter <strong>IC1</strong>. This chip has multiple purposes. One is to invert the signal from the serial port (which is +-10V), and buffer them to be exactly 5V. It also is used as the feedback driver which causes the crystal to oscillate.</p>
+          <p>The pins of ICs are a little skewed when they come from the factory, so they need to be bent in just a tiny bit, to be parallel. Grip the chip from the ends and use a table.</p>
+        <p>Then carefully slide the chip so that the notch in the chip matches the notch in the silkscreen. Make absolutely sure this is correct because once its soldered in its nearly impossible to repair!</p>
+        <p>Also place in the ceramic capacitor <strong>C1</strong>, which provides fine stability and smoothing to the 5V supply. It is placed near the SIM card holder to make sure the SIM card has the cleanest supply possible.</p>
+        <p>Finally, place the NPN transistor <strong>Q1</strong>, which is what allows the 2 receive/transmit signals to share a single pin on the SIM card.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/invsolder.jpg"><img src="../../images/simreader/invsolder_t.jpg" width="500" height="314" border="1"></a></td>
+        <td valign="top">Solder each pin of the chip, making sure that the solder joints are shiny and smooth. The pins are quite short so they don't need to be clipped.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/simtack1.jpg"><img src="../../images/simreader/simtack1_t.jpg" width="500" height="355" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/simtack.jpg"><img src="../../images/simreader/simtack_t.jpg" width="500" height="386" border="1"></a></p></td>
+        <td valign="top"><p>Using the tip of the soldering iron, heat up one of the SIM holder pads and melt a small bump of solder onto it.</p>
+        <p>Then, hold the SIM card holder in one hand while reheating the pad with the other, slide the holder so that the corresponding pins align with the pads.once the pad has remelted and joined the pin and pad, remove the soldering iron.</p>
+        <p>Double check that the notched corner of the SIM holder lines up with the silkscreen as shown.</p>
+        <p><strong>The SIM holder might have extra pins, just ignore these and solder in the 6 that have pads underneath them!</strong></p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/simsolder.jpg"><img src="../../images/simreader/simsolder_t.jpg" width="500" height="339" border="1"></a></p>
+        <p><img src="../../images/simreader/simdone_t.jpg" width="500" height="362" border="1"></p></td>
+        <td valign="top"><p>Now solder the rest of the pins.</p>
+        <p>Heat up the pad and pin together and then poke a small bit of solder in</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/db9place.jpg"><img src="../../images/simreader/db9place_t.jpg" width="500" height="310" border="1"></a></td>
+        <td valign="top"><p>Slip the female DB-9 connector onto the end, it will sandwich the PCB nicely. This is the serial port that will connect to a computer. </p>
+        <p>Make sure the pins and pads line up, one side is 5 pads and the other is 4</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/db9solder.jpg"><img src="../../images/simreader/db9solder_t.jpg" width="500" height="375" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/db9solder2.jpg"><img src="../../images/simreader/db9solder2_t.jpg" width="500" height="345" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/db9solder3.jpg"><img src="../../images/simreader/db9solder3_t.jpg" width="500" height="364" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/db9check.jpg"><img src="../../images/simreader/db9check_t.jpg" width="500" height="352" border="1"></a></p></td>
+        <td valign="top">Solder each of the 9 pads, making sure to heat up the pad as well as the pin so that the solder goes between the two and doesn't just fill up the pin's cup.</td>
+      </tr>
+      <tr>
+        <td class="imagetd"><p><a href="http://www.ladyada.net/images/simreader/ftdiplace.jpg"><img src="../../images/simreader/ftdiplace_t.jpg" width="500" height="306" border="1"></a></p>
+        <p><a href="http://www.ladyada.net/images/simreader/ftdisolder.jpg"><img src="../../images/simreader/ftdisolder_t.jpg" width="500" height="315" border="1"></a></p></td>
+        <td valign="top"><p>Finally, if you're planning to use an FTDI cable to connect to the board, solder in the 6-pin male header. Make sure the long pins point up.</p>
+        <p>If, rather, youd like to plug it into a breadboard, make the long pins point down.</p></td>
+      </tr>
+      <tr>
+        <td class="imagetd"><a href="http://www.ladyada.net/images/simreader/done.jpg"><img src="../../images/simreader/done_t.jpg" width="500" height="370" border="1"></a></td>
+        <td valign="top">You're done! Now go read the <a href="use.html">User Manual</a></td>
+      </tr>
+    </table>
+  <!-- InstanceEndEditable --> </div>
+  <!-- InstanceEndRepeatEntry --><!-- InstanceEndRepeat --></div>
+
+<div id="rightcol">
+<!-- this is just a buffer -->
+</div>
+
+
+
+<div id="history">
+<!-- #BeginDate format:Am1m -->November 9, 2012  13:55<!-- #EndDate --></div>
+
+</body>
+<!-- InstanceEnd --></html>
